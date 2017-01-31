@@ -27,7 +27,7 @@ self.addEventListener('push', function(event) {
 
   const title = 'Push Codelab';
   const options = {
-    body: 'Yay it works. photo.lehaim-vip.com111',
+    body: 'Yay it works. photo.lehaim-vip.com222',
     icon: 'images/icon.png',
     badge: 'images/badge.png'
   };
