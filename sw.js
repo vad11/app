@@ -27,7 +27,7 @@ self.addEventListener('push', function(event) {
 
   const title = 'Push Codelab';
   const options = {
-    body: 'Yay it works. photo.lehaim-vip.com21',
+    body: 'Yay it works. photo.lehaim-vip.com111',
     icon: 'images/icon.png',
     badge: 'images/badge.png'
   };
@@ -37,8 +37,8 @@ self.addEventListener('push', function(event) {
 
 
 /*self.addEventListener('notificationclick', event => {
-   const rootUrl = new URL('/', location).href;
-    //const rootUrl = new URL("http://photo.lehaim-vip.com").href;
+   //const rootUrl = new URL('/', location).href;
+    const rootUrl = new URL("https://burgler-alice-35565.netlify.com/#!/").href;
     event.notification.close();
     // Enumerate windows, and call window.focus(), or open a new one.
     event.waitUntil(
@@ -48,8 +48,8 @@ self.addEventListener('push', function(event) {
             return client.focus();
           }
         }
-        return clients.openWindow("/");
-      // return clients.openWindow("http://photo.lehaim-vip.com");
+      //  return clients.openWindow("/");
+       return clients.openWindow("https://burgler-alice-35565.netlify.com/#!/");
       })
     );
 });
